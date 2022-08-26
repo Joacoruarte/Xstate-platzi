@@ -1,0 +1,20 @@
+.Welcome {
+  display: flex;
+  flex-direction: column; 
+}
+.Welcome-title{
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.Welcome-cancel {
+  margin-left: auto;
+  cursor: pointer;
+  padding: .7rem;
+  background-color: #4e4ed4;
+  font-weight: 700;
+  box-shadow: none;
+  border: none;
+  color: #FDFDFD;
+  border-radius: 10px;
+}

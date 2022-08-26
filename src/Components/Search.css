@@ -1,0 +1,26 @@
+.Search {
+  display: flex;
+  flex-direction: column;
+}
+
+.Search-select {
+  font-size: 1rem;
+  margin: 16px 0;
+  color: #444;
+  background-color: #FDFDFD;
+  border-radius: 8px;
+  padding: 8px;
+  border: none;
+}
+
+.Search-continue {
+  margin-left: auto;
+  padding: .7rem;
+  background-color: #4e4ed4;
+  font-weight: 700;
+  box-shadow: none;
+  border: none;
+  color: #FDFDFD;
+  border-radius: 10px;
+  cursor: pointer;
+};

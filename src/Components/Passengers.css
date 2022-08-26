@@ -1,0 +1,63 @@
+.Passengers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.Passengers input {
+  font-size: 1rem;
+  color: #000;
+  margin: 16px 0;
+  border-radius: 8px;
+  padding: 8px;
+  border: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.Passengers-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.Passengers-add{
+  background-color: #FDFDFD;
+  padding: .6rem;
+  font-weight: 700;
+  box-shadow: none;
+  border: none;
+  color: #293684;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.lista-passengers{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.Passenger-pay{
+  cursor: pointer;
+  padding: .6rem;
+  background-color: #4e4ed4;
+  font-weight: 700;
+  box-shadow: none;
+  border: none;
+  color: #FDFDFD;
+  border-radius: 10px;
+}
+
+.Passengers-title {
+  margin-bottom: 16px;
+}
+
+.Passenger-input{
+  background-color: #FDFDFD;
+}
